@@ -1,8 +1,8 @@
 # Netlify Deployment Configuration
 
 [build]
-  publish = "public"
-  command = "npm run build"
+  publish = "."
+  command = ""
 
 [build.environment]
   NODE_VERSION = "18"
